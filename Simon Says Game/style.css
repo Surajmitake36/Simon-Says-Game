@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+
+.btn {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 20%;
+    margin: 10px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.salmon {
+    background-color: salmon;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+}
+
+.greenyellow {
+    background-color: greenyellow;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+}
+
+.game_over{
+    background-color: darkred;
+}

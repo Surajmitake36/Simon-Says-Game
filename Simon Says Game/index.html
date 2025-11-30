@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simon Says</title>
+</head>
+
+<body>
+    <h1>Simon Says Game</h1>
+    <h2>Press any key to Start</h2>
+
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn salmon" type = "button" id = "salmon">1</div>
+            <div class="btn aquamarine" type = "button" id = "aquamarine">2</div>
+        </div>
+        <div class="line-two">
+            <div class="btn greenyellow" type = "button" id = "greenyellow">3</div>
+            <div class="btn skyblue" type = "button" id = "skyblue">4</div>
+        </div>
+
+    </div>
+    <h3 id="score">Highest Score = 0</h3>
+    <h3 id="lvl">Highest Level Completed = 0 </h3>
+    <audio src="Game_over.wav" preload="auto" id="sound"></audio>
+</body>
+<script src="app.js"></script>
+
+</html>
